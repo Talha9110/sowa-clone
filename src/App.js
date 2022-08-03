@@ -1,10 +1,14 @@
 import React from "react";
-import BasicExample from "./components/Navbar";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+import Top from "./components/Top";
 
 function App() {
 	return (
 		<>
-			<BasicExample />
+			<Navbar />
+			<Slider />
+			<Top />w
 		</>
 	);
 }
