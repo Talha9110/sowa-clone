@@ -1,3 +1,4 @@
+/* Navbar */
 .main{
     background-color: #251F1F;
     position: fixed;
@@ -52,9 +53,16 @@
     top: 99px;
 }
 
+.quick > p{
+    font-weight: 500;
+}
+
+/* Slider */
 .slider{
     margin-top: 135px;
 }
+
+/* TOP */
 
 .product{
     width: 60%;
@@ -78,9 +86,7 @@
     color: #2A6482;
 }
 
-.quick > p{
-    font-weight: 500;
-}
+
 
 .top_products > h2{
     font-size: 36px;
@@ -113,6 +119,142 @@
     width: 170px;
     height: 170px;
     object-fit: contain;
-    border: 1px solid silver;
-    
+    border: 1px solid silver;   
+}
+
+.product_item > .items > h3{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Setup */
+
+.setup > div{
+    margin: 0 20px;
+}
+
+.pic{
+    max-width: 100%;
+    height: 325px;
+}
+
+.link{
+    cursor: pointer;
+    font-family: 'Helvetica Neue',sans-serif;
+    color: #428bca;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #f4ae1a;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.my_dist > .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.my_dist > .images > img{
+    width: 250px;
+    height: 150px;
+    object-fit: contain;
+}
+
+/* Footer */
+.footer{
+    background-color: #251F1F;
+}
+
+.navft > div{
+    margin-top: 20px;
+}
+
+.footer > .navft > .left_side > .texti {
+    color: #F4AE1A;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 90%;
+}
+
+.footer > .navft > .left_side > .tools > span{
+    display: flex;
+    align-self: baseline;
+    width: 100%;
+    font-size: 14px;
+}
+
+.page-bottom{
+    background-color: #F4AE1A;
+}
+
+.div1{
+    margin-left: -16px;
+}
+
+.div1 > p{
+    color: #251F1F;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.div1 > ul > li{
+    list-style: none;
+    margin-left: -33px;
+    text-align: left;
+    color: #000;
+    transition: all 0.2 ease-in;
+    cursor: pointer;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+@keyframes move {
+    from {margin-left: -33px;}
+  to {margin-left: -25px;}
+  }
+
+.div1 > ul > li:hover{
+    color: #428bca;
+    animation-name: move;
+    animation-duration: 100s;
+}
+
+.div4 > h5{
+    color: #428bca;
+    font-weight: bold;
+}
+
+.div5 > h3{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.div5 > .icons > a{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.div5 > .icons > a > i{
+    margin-top: 5.5px;
+    font-size: 31px;
 }

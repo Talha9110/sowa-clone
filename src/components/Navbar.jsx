@@ -5,7 +5,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import BarChartIcon from "@mui/icons-material/BarChart";
-
 import "./style.css";
 
 function Navbar() {
